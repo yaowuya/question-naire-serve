@@ -14,4 +14,7 @@ module.exports = app => {
     //分页查询
     const pageRouter = require("./PageRouter");
     app.use("/admin/api/page/:resource", authMiddleware(), resourceMiddleware(), pageRouter);
+    // 问卷调查
+    const questionRouter=require("./QuestionRouter")
+    app.use("/admin/api/question/", authMiddleware(), questionRouter);
 }
