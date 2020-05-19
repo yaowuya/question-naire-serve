@@ -11,7 +11,7 @@ app.use('/admin', express.static(__dirname + '/admin'))
 app.use('/uploads', express.static(__dirname + '/uploads'))
 
 require("./database/db")(app)
-require("./routes/admin")(app)
+require("./routes")(app)
 
 app.listen(3000, () => {
     console.log('http://localhost:3000')

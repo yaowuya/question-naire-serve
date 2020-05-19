@@ -3,7 +3,7 @@ const fs = require("fs")
 const router = express.Router({
     mergeParams: true
 })
-const good = require("../../../models/Good")
+const good = require("../../models/Good")
 //资源列表
 router.get('/', async (req, res) => {
     //因为parent是一个id，关联了req.Model
