@@ -3,9 +3,8 @@ const router = express.Router({
     mergeParams: true
 })
 
-const question = require('../../models/Question')
+const question = require('../../../models/Question')
 
-//分页分类信息
 router.get('/getQuestion', async (req, res) => {
     try {
         const {pageNum = 1, pageSize = 10, name} = req.query
@@ -17,7 +16,7 @@ router.get('/getQuestion', async (req, res) => {
             ]
         }
         const total = await question.countDocuments(condition)
-        const data = await question.find(condition).sort(sort).skip(skipNum).limit(parseInt(pageSize))
+        const data = await question.find(condition).sort(sort).skip(skipNum).limit(parseInt(pageSize)).lean()
         res.json({
             result: true,
             total: total,
