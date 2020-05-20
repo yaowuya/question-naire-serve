@@ -2,7 +2,8 @@ const mongoose = require('mongoose')
 
 //选项表
 const schema = new mongoose.Schema({
-    value: {type: String},
+    name: {type: String},//选项 :A,B,C
+    content: {type: String},//选项内容
     title:{type:mongoose.SchemaTypes.ObjectId,ref:'Title'}
 })
 
