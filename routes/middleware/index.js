@@ -10,6 +10,7 @@ module.exports = app => {
     app.use("/admin/api/question/", authMiddleware(), require("./question/QuestionRouter"));
     app.use("/admin/api/question/", authMiddleware(), require("./question/TitleRouter"));
     app.use("/admin/api/question/", authMiddleware(), require("./question/OptionRouter"));
+    app.use("/admin/api/question/", authMiddleware(), require("./question/AnswerRouter"));
     // 系统管理
     app.use("/admin/api/system/", authMiddleware(), require("./system/PersonRouter"));
 }
