@@ -34,4 +34,26 @@ router.get('/getTitle', async (req, res) => {
 
 })
 
+router.get('/getTitleByQuestion', async (req, res) => {
+    try {
+        const {question} = req.query
+        const data = await title.find({question: question || null}, "_id name order").sort({order: 1}).lean()
+        res.json({result: true, data: data})
+    } catch (e) {
+        res.json({result: false, message: JSON.stringify(e)})
+    }
+
+})
+
+router.get('/getTitleAndOption', async (req, res) => {
+    try {
+        const {titleId} = req.query
+        const data = await title.find({_id: titleId || null}).populate('option').lean()
+        res.json({result: true, data: data})
+    } catch (e) {
+        res.json({result: false, message: JSON.stringify(e)})
+    }
+
+})
+
 module.exports = router
