@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const schema = new mongoose.Schema({
     name: {type: String},
     desc: {type: String},
-    belong: {type: String}
+    questionType: [{type: mongoose.SchemaTypes.ObjectId, ref: 'QuestionType'}]
 })
 
 module.exports = mongoose.model('Question', schema, "Questions")

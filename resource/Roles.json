@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5ec49fe7cd2a1b8208566b21"},"name":"doctor","chinese":"医生","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ec4a002cd2a1b8208566b22"},"name":"patient","chinese":"调查对象","__v":{"$numberInt":"0"}}

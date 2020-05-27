@@ -1,0 +1,9 @@
+{"_id":{"$oid":"5ec630c434e1724530b92e99"},"name":"A","content":"选项1","title":{"$oid":"5ec74aa0b143dc4610c81ae2"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ec8e19348d614235cda2529"},"name":"A","content":"符合带状疱疹诊断","title":{"$oid":"5ec507751017168e04e697d2"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ec8e19348d614235cda252a"},"name":"B","content":"年龄不小于18 周岁","title":{"$oid":"5ec507751017168e04e697d2"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ec8e19348d614235cda252b"},"name":"C","content":"签署知情同意书","title":{"$oid":"5ec507751017168e04e697d2"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ec8e19348d614235cda252c"},"name":"D","content":"发病时间不超过2 周","title":{"$oid":"5ec507751017168e04e697d2"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ec8e1cb48d614235cda252d"},"name":"A","content":"有严重精神疾病、癫痫病，可能影响患者评判能力的脑部疾病或精神疾病","title":{"$oid":"5ec5075e1017168e04e697d1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ec8e1cb48d614235cda252e"},"name":"B","content":"除带状疱疹外，存在影响研究者皮损评估的其他严重皮肤病","title":{"$oid":"5ec5075e1017168e04e697d1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ec8e1cb48d614235cda252f"},"name":"C","content":"未签署知情同意","title":{"$oid":"5ec5075e1017168e04e697d1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ec8e1cb48d614235cda2530"},"name":"D","content":"研究者认为不适合参加研究的患者","title":{"$oid":"5ec5075e1017168e04e697d1"},"__v":{"$numberInt":"0"}}

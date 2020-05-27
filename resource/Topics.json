@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5ec4eafb0e439755581c0a7e"},"name":"single","chinese":"单选","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ec4eb170e439755581c0a80"},"name":"multiple","chinese":"多选","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ec4eb210e439755581c0a81"},"name":"input","chinese":"填空题","__v":{"$numberInt":"0"}}
