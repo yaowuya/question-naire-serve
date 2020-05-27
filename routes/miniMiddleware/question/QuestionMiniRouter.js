@@ -11,7 +11,7 @@ router.get('/getQuestionInfo', async (req, res) => {
         const {questionType} = req.query
         const qtObj=await qtModel.findOne({name:questionType}).lean()
         const question =await questionModel.find({questionType: {$elemMatch: {$eq: qtObj._id}}})
-        const titleList =await titleModel.find({question: question[0]._id}).populate('topic')
+        const titleList =await titleModel.find({question: question[0]._id}).sort({order:1}).populate('topic')
             .populate('option').lean()
         res.json({
             result: true,
