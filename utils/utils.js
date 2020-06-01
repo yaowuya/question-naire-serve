@@ -45,7 +45,36 @@ function isEmpty(str) {
 
 }
 
+const compare = function (property, type) {
+    if (type === 'desc') {
+        return function (a, b) {
+            let value1 = a[property];
+            let value2 = b[property];
+            if (value2 < value1) {
+                return -1
+            } else if (value2 > value1) {
+                return 1
+            } else {
+                return 0
+            }
+        }
+    } else if (type === 'asc') {
+        return function (a, b) {
+            let value1 = a[property];
+            let value2 = b[property];
+            if (value2 < value1) {
+                return 1
+            } else if (value2 > value1) {
+                return -1
+            } else {
+                return 0
+            }
+        }
+    }
+
+}
 module.exports = {
     formatTime: formatTime,
-    isEmpty: isEmpty
+    isEmpty: isEmpty,
+    compare: compare
 }

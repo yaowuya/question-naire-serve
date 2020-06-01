@@ -9,7 +9,7 @@ router.get('/getQuestion', async (req, res) => {
     try {
         const {pageNum = 1, pageSize = 10, name} = req.query
         const skipNum = (parseInt(pageNum) - 1) * parseInt(pageSize)
-        const sort = {_id: -1}
+        const sort = {questionId: 1}
         const condition = {
             $and: [
                 {name: {$regex: name || '', $options: 'i'}}

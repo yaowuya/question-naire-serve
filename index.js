@@ -9,6 +9,7 @@ app.use(express.json())
 
 app.use('/admin', express.static(__dirname + '/admin'))
 app.use('/uploads', express.static(__dirname + '/uploads'))
+app.use('/mini/api/images', express.static(__dirname + '/images'))
 
 require("./database/db")(app)
 require("./routes")(app)

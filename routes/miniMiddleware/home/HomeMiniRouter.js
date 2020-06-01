@@ -21,7 +21,7 @@ router.get('/getAllRole', async (req, res) => {
 //小程序登录添加用户信息
 router.post('/addPerson', async (req, res) => {
     try {
-        console.log(req.body);
+        // console.log(req.body);
         const {person, role} = req.body
         const {doctorName, doctorNumber, patientName, patientNumber, patientTime} = person
         const roleList = await roleModel.find()
@@ -37,6 +37,7 @@ router.post('/addPerson', async (req, res) => {
             }
         })
         if (role === 'doctor') {
+            const questionType = await qtModel.findOne({role: dRoleId})
             const doctor = await personModel.find({name: doctorName, number: doctorNumber})
             const patient = await personModel.find({name: patientName, number: patientNumber})
             if (doctor.length > 0) {
@@ -48,7 +49,7 @@ router.post('/addPerson', async (req, res) => {
                         role: pRoleId
                     })
                 }
-                res.json({result: true, data: {person: doctor[0]._id, questionType: 'zero-week'}})
+                res.json({result: true, data: {person: doctor[0]._id, questionType: questionType.name}})
             } else {
                 const insertDoctor = await personModel.create({
                     name: doctorName,
@@ -62,7 +63,7 @@ router.post('/addPerson', async (req, res) => {
                     doctor: insertDoctor._id,
                     role: pRoleId
                 })
-                res.json({result: true, data: {person: insertDoctor._id, questionType: 'zero-week'}})
+                res.json({result: true, data: {person: insertDoctor._id, questionType: questionType.name}})
             }
         } else {
             const patient = await personModel.find({name: patientName, number: patientNumber})

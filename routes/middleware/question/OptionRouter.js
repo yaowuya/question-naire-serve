@@ -42,18 +42,20 @@ router.get('/getOption', async (req, res) => {
 
 router.post('/addOptionByTitle', async (req, res) => {
     try {
-        const {option, optionList} = req.body
-        await optionModel.deleteMany({_id: {$in: optionList}})
-        let opData = []
-        opData = option.map(item => {
-            return {
-                name: item.name,
-                content: item.content,
-                title: item.title
-            }
+        const {option, optionList, titleId} = req.body
+        await optionModel.deleteMany({title: titleId})
+        const opData = []
+        option.forEach(item => {
+            opData.push(
+                {
+                    name: item.name,
+                    content: item.content,
+                    title: item.title
+                }
+            )
         })
-        const result =await optionModel.insertMany(opData)
-        res.json({result: true, data:result})
+        const result = await optionModel.insertMany(opData)
+        res.json({result: true, data: result})
     } catch (e) {
         res.json({result: false, message: JSON.stringify(e)})
     }

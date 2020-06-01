@@ -4,6 +4,7 @@ const mongoose = require('mongoose')
 const schema = new mongoose.Schema({
     person: {type: mongoose.SchemaTypes.ObjectId, ref: 'Person'},
     question: {type: mongoose.SchemaTypes.ObjectId, ref: 'Question'},
+    questionType: {type: mongoose.SchemaTypes.ObjectId, ref: 'QuestionType'},
     option: [{type: mongoose.SchemaTypes.ObjectId, ref: 'Option'}],
     content: {type: String},
     createTime: {type: Date, default: Date.now()},
