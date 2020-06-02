@@ -53,7 +53,7 @@ router.get('/getAnswer', async (req, res) => {
         data.forEach(d => {
             let objId = d.person._id + "-" + d.question._id
             if (!obj[objId]) {
-                d.createTime = moment(d.createTime).format('YYYY-MM-DD HH:mm:ss')
+                d.createTime = moment(d.createTime).format('YYYY-MM-DD')
                 obj[objId] = d
             }
         })
@@ -89,18 +89,30 @@ router.get('/getAnswerDetail', async (req, res) => {
             question: questionId,
             person: personId,
             questionType: questionTypeId
-        }).populate('person').populate('question').populate('questionType').populate({
-            path: 'option',
-            populate: {
-                path: 'title',
+        }).populate({path: 'person', populate: {path: 'role'}})
+            .populate('question').populate('questionType').populate({
+                path: 'option',
                 populate: {
-                    path: 'topic'
+                    path: 'title',
+                    populate: {
+                        path: 'topic'
+                    }
                 }
-            }
-        }).lean()
+            }).lean()
 
         let detailList = []
-        const questionName = answerList[0].question.name
+        let answerObj = {
+            questionName: '',
+            createTime: '',
+            personName: '',
+            role: ''
+        }
+        if (answerList.length > 0) {
+            answerObj.questionName = answerList[0].question.name
+            answerObj.createTime = moment(answerList[0].createTime).format('YYYY-MM-DD')
+            answerObj.personName = answerList[0].person.name
+            answerObj.role = answerList[0].person.role.chinese
+        }
         answerList.forEach(item => {
             let title = item.option[0].title
             let optionList = item.option
@@ -114,7 +126,7 @@ router.get('/getAnswerDetail', async (req, res) => {
             })
         })
         detailList.sort(compare('order', 'asc'))
-        res.json({result: true, data: detailList, questionName: questionName})
+        res.json({result: true, data: detailList, answerObj: answerObj})
     } catch (e) {
         res.json({result: false, message: JSON.stringify(e)})
     }
