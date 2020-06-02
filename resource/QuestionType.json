@@ -1,5 +1,4 @@
-{"_id":{"$oid":"5eccce10f74a5aebe0662c11"},"name":"doctor-zero","chinese":"部分医生填写","role":{"$oid":"5ec49fe7cd2a1b8208566b21"},"__v":{"$numberInt":"0"}}
-{"_id":{"$oid":"5ecccf06f74a5aebe0662c13"},"name":"zero-week","chinese":"0 周","role":{"$oid":"5ec49fe7cd2a1b8208566b21"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5eccce10f74a5aebe0662c11"},"name":"doctor-zero","chinese":"医生填写","role":{"$oid":"5ec49fe7cd2a1b8208566b21"},"__v":{"$numberInt":"0"}}
 {"_id":{"$oid":"5ecccf4df74a5aebe0662c14"},"name":"first-visit","chinese":"初诊","role":{"$oid":"5ec4a002cd2a1b8208566b22"},"__v":{"$numberInt":"0"}}
 {"_id":{"$oid":"5ecccf63f74a5aebe0662c15"},"name":"one-week","chinese":"1周","role":{"$oid":"5ec4a002cd2a1b8208566b22"},"__v":{"$numberInt":"0"}}
 {"_id":{"$oid":"5ecccf7ff74a5aebe0662c16"},"name":"one-month","chinese":"1月","role":{"$oid":"5ec4a002cd2a1b8208566b22"},"__v":{"$numberInt":"0"}}

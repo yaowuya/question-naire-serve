@@ -1,2 +1,7 @@
-{"_id":{"$oid":"5ec4ef010e439755581c0a82"},"name":"医生填写（0 周）","desc":"","belong":"第0周","__v":{"$numberInt":"0"},"questionType":[{"$oid":"5ecccf06f74a5aebe0662c13"}]}
-{"_id":{"$oid":"5ec4ef0b0e439755581c0a83"},"name":"以下部分医生填写","desc":"医生初始要填写的问卷","belong":"医生填写部分","__v":{"$numberInt":"0"},"questionType":[{"$oid":"5eccce10f74a5aebe0662c11"}]}
+{"_id":{"$oid":"5ec4ef010e439755581c0a82"},"name":"医生填写（0 周）","desc":"","belong":"第0周","__v":{"$numberInt":"0"},"questionType":[{"$oid":"5eccce10f74a5aebe0662c11"}],"questionId":"doctor2"}
+{"_id":{"$oid":"5ec4ef0b0e439755581c0a83"},"name":"以下部分医生填写","desc":"医生初始要填写的问卷","belong":"医生填写部分","__v":{"$numberInt":"0"},"questionType":[{"$oid":"5eccce10f74a5aebe0662c11"}],"questionId":"doctor1"}
+{"_id":{"$oid":"5ed260e53638249c78120eca"},"questionType":[{"$oid":"5ecccf4df74a5aebe0662c14"}],"name":"患者填写（0 周）","desc":"","__v":{"$numberInt":"0"},"questionId":"patient0"}
+{"_id":{"$oid":"5ed261053638249c78120ecb"},"questionType":[{"$oid":"5ecccf63f74a5aebe0662c15"},{"$oid":"5ecccf4df74a5aebe0662c14"}],"name":"皮肤病生存质量指数（DLQI）","desc":"","__v":{"$numberInt":"0"},"questionId":"patient2"}
+{"_id":{"$oid":"5ed261113638249c78120ecc"},"questionType":[{"$oid":"5ecccf4df74a5aebe0662c14"},{"$oid":"5ecccf63f74a5aebe0662c15"}],"name":"EQ-5D-5L健康问卷","desc":"","__v":{"$numberInt":"0"},"questionId":"patient3"}
+{"_id":{"$oid":"5ed2611e3638249c78120ecd"},"questionType":[{"$oid":"5ecccf63f74a5aebe0662c15"}],"name":"复诊1周","desc":"","__v":{"$numberInt":"0"},"questionId":"patient1"}
+{"_id":{"$oid":"5ed261463638249c78120ece"},"questionType":[{"$oid":"5ecccf7ff74a5aebe0662c16"},{"$oid":"5ecccf8cf74a5aebe0662c17"}],"name":"随访记录","desc":"","__v":{"$numberInt":"0"},"questionId":"patient4"}

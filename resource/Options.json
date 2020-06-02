@@ -1,4 +1,3 @@
-{"_id":{"$oid":"5ec630c434e1724530b92e99"},"name":"A","content":"选项1","title":{"$oid":"5ec74aa0b143dc4610c81ae2"},"__v":{"$numberInt":"0"}}
 {"_id":{"$oid":"5ec8e19348d614235cda2529"},"name":"A","content":"符合带状疱疹诊断","title":{"$oid":"5ec507751017168e04e697d2"},"__v":{"$numberInt":"0"}}
 {"_id":{"$oid":"5ec8e19348d614235cda252a"},"name":"B","content":"年龄不小于18 周岁","title":{"$oid":"5ec507751017168e04e697d2"},"__v":{"$numberInt":"0"}}
 {"_id":{"$oid":"5ec8e19348d614235cda252b"},"name":"C","content":"签署知情同意书","title":{"$oid":"5ec507751017168e04e697d2"},"__v":{"$numberInt":"0"}}
@@ -7,3 +6,167 @@
 {"_id":{"$oid":"5ec8e1cb48d614235cda252e"},"name":"B","content":"除带状疱疹外，存在影响研究者皮损评估的其他严重皮肤病","title":{"$oid":"5ec5075e1017168e04e697d1"},"__v":{"$numberInt":"0"}}
 {"_id":{"$oid":"5ec8e1cb48d614235cda252f"},"name":"C","content":"未签署知情同意","title":{"$oid":"5ec5075e1017168e04e697d1"},"__v":{"$numberInt":"0"}}
 {"_id":{"$oid":"5ec8e1cb48d614235cda2530"},"name":"D","content":"研究者认为不适合参加研究的患者","title":{"$oid":"5ec5075e1017168e04e697d1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed227e23638249c78120ec4"},"name":"A","content":"12","title":{"$oid":"5ec7e2882f81b321f81a0cbb"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed227e23638249c78120ec5"},"name":"B","content":"213","title":{"$oid":"5ec7e2882f81b321f81a0cbb"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed227e23638249c78120ec6"},"name":"C","content":"213","title":{"$oid":"5ec7e2882f81b321f81a0cbb"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed227e23638249c78120ec7"},"name":"D","content":"123","title":{"$oid":"5ec7e2882f81b321f81a0cbb"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed25d953638249c78120ec8"},"name":"A","content":"选项1","title":{"$oid":"5ec74aa0b143dc4610c81ae2"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed270b7ccf4fd76fc473d7a"},"name":"A","content":"0 天","title":{"$oid":"5ed2705cccf4fd76fc473d79"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed270b7ccf4fd76fc473d7b"},"name":"B","content":"7 天","title":{"$oid":"5ed2705cccf4fd76fc473d79"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed270b7ccf4fd76fc473d7c"},"name":"C","content":"1 个月","title":{"$oid":"5ed2705cccf4fd76fc473d79"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed270b7ccf4fd76fc473d7d"},"name":"D","content":"3 个月","title":{"$oid":"5ed2705cccf4fd76fc473d79"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed27238ccf4fd76fc473d87"},"name":"A","content":"0 分。","title":{"$oid":"5ed2710dccf4fd76fc473d7e"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed27238ccf4fd76fc473d88"},"name":"B","content":"1 分。丘疹水疱：数目不超过25 个；红斑/水肿：淡红，略肿胀；糜烂面：1-3 处糜烂，或直径小于5mm","title":{"$oid":"5ed2710dccf4fd76fc473d7e"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed27238ccf4fd76fc473d89"},"name":"C","content":"2 分。丘疹水疱：数目25-50 个；红斑/水肿：潮红，中度肿胀；糜烂面：4-6 处糜烂，或直径5-10mm","title":{"$oid":"5ed2710dccf4fd76fc473d7e"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed27238ccf4fd76fc473d8a"},"name":"D","content":"3 分。丘疹水疱：数目大于50 个；红斑/水肿：明显潮红肿胀；糜烂面：大于6 处糜烂，或直径大于10mm","title":{"$oid":"5ed2710dccf4fd76fc473d7e"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30c6d01a738864860ce6b"},"name":"A","content":"经典型带状疱疹。单侧潮红斑,丘疹成簇不融合,发展为疱液澄清水疱,伴疼痛","title":{"$oid":"5ed27280ccf4fd76fc473d8b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30c6d01a738864860ce6c"},"name":"B","content":"眼带状疱疹。表现单侧眼睑肿胀，结膜充血，疼痛常较为剧烈，常伴同侧头部疼 痛，可累及角膜形成溃疡性角膜炎","title":{"$oid":"5ed27280ccf4fd76fc473d8b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30c6d01a738864860ce6d"},"name":"C","content":"耳带状疱疹。病毒侵犯面神经及听神经所致，表现为外耳道疱疹/外耳道疼痛/面 瘫/耳痛/外耳道疱疹/Ramsay—Hunt综合征","title":{"$oid":"5ed27280ccf4fd76fc473d8b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30c6d01a738864860ce6e"},"name":"D","content":"顿挫型带状疱疹。仅出现红斑、丘疹而不发生水疱","title":{"$oid":"5ed27280ccf4fd76fc473d8b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30c6d01a738864860ce6f"},"name":"E","content":"无疹性带状疱疹。仅有皮区疼痛而无皮疹","title":{"$oid":"5ed27280ccf4fd76fc473d8b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30c6d01a738864860ce70"},"name":"F","content":"播散型带状疱疹。恶性肿瘤或年老体弱患者，病毒经血液播散导致广泛性水痘样疹并 侵犯肺和脑等器官","title":{"$oid":"5ed27280ccf4fd76fc473d8b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30c6d01a738864860ce71"},"name":"G","content":"病毒性脑炎/脑膜炎。侵犯中枢神经系统大脑实质和脑膜时发生","title":{"$oid":"5ed27280ccf4fd76fc473d8b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30c6d01a738864860ce72"},"name":"H","content":"侵犯内脏神经。急性胃肠炎/膀胱炎，表现为腹部绞痛/排尿困难/尿潴留","title":{"$oid":"5ed27280ccf4fd76fc473d8b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30c6d01a738864860ce73"},"name":"I","content":"其他。大疱性、出血性、坏疽性等表现的带状疱疹","title":{"$oid":"5ed27280ccf4fd76fc473d8b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30cd001a738864860ce75"},"name":"A","content":"正常","title":{"$oid":"5ed30c8801a738864860ce74"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30cd001a738864860ce76"},"name":"B","content":"红","title":{"$oid":"5ed30c8801a738864860ce74"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30cd001a738864860ce77"},"name":"C","content":"淡","title":{"$oid":"5ed30c8801a738864860ce74"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30cd001a738864860ce78"},"name":"D","content":"暗","title":{"$oid":"5ed30c8801a738864860ce74"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30cd001a738864860ce79"},"name":"E","content":"其他","title":{"$oid":"5ed30c8801a738864860ce74"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e2401a738864860ce7b"},"name":"A","content":"正常","title":{"$oid":"5ed30def01a738864860ce7a"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e2401a738864860ce7c"},"name":"B","content":"白","title":{"$oid":"5ed30def01a738864860ce7a"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e2401a738864860ce7d"},"name":"C","content":"黄","title":{"$oid":"5ed30def01a738864860ce7a"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e2401a738864860ce7e"},"name":"D","content":"厚","title":{"$oid":"5ed30def01a738864860ce7a"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e2401a738864860ce7f"},"name":"E","content":"腻","title":{"$oid":"5ed30def01a738864860ce7a"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e2401a738864860ce80"},"name":"F","content":"少苔","title":{"$oid":"5ed30def01a738864860ce7a"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e2401a738864860ce81"},"name":"G","content":"其他","title":{"$oid":"5ed30def01a738864860ce7a"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e8401a738864860ce83"},"name":"A","content":"正常","title":{"$oid":"5ed30e4101a738864860ce82"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e8401a738864860ce84"},"name":"B","content":"弦","title":{"$oid":"5ed30e4101a738864860ce82"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e8401a738864860ce85"},"name":"C","content":"滑","title":{"$oid":"5ed30e4101a738864860ce82"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e8401a738864860ce86"},"name":"D","content":"细","title":{"$oid":"5ed30e4101a738864860ce82"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e8401a738864860ce87"},"name":"E","content":"数","title":{"$oid":"5ed30e4101a738864860ce82"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e8401a738864860ce88"},"name":"F","content":"缓","title":{"$oid":"5ed30e4101a738864860ce82"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e8401a738864860ce89"},"name":"G","content":"涩","title":{"$oid":"5ed30e4101a738864860ce82"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30e8401a738864860ce8a"},"name":"H","content":"其他","title":{"$oid":"5ed30e4101a738864860ce82"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30ee401a738864860ce8c"},"name":"A","content":"图A","title":{"$oid":"5ed30eb901a738864860ce8b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30ee401a738864860ce8d"},"name":"B","content":"图B","title":{"$oid":"5ed30eb901a738864860ce8b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30ee401a738864860ce8e"},"name":"C","content":"图C","title":{"$oid":"5ed30eb901a738864860ce8b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30ee401a738864860ce8f"},"name":"D","content":"图D","title":{"$oid":"5ed30eb901a738864860ce8b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30f2201a738864860ce91"},"name":"A","content":"男","title":{"$oid":"5ed30f1201a738864860ce90"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30f2201a738864860ce92"},"name":"B","content":"女","title":{"$oid":"5ed30f1201a738864860ce90"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30f5201a738864860ce94"},"name":"A","content":"民族","title":{"$oid":"5ed30f3701a738864860ce93"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed30fac01a738864860ce98"},"name":"A","content":"居住地","title":{"$oid":"5ed30fa501a738864860ce97"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3101e01a738864860ce9a"},"name":"A","content":"身高","title":{"$oid":"5ed3100701a738864860ce99"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed310bd01a738864860ce9c"},"name":"A","content":"体重","title":{"$oid":"5ed3106101a738864860ce9b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32dfa01a738864860cea7"},"name":"A","content":"出生日期","title":{"$oid":"5ed30f8701a738864860ce95"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32e1e01a738864860cea8"},"name":"A","content":"1=A 型","title":{"$oid":"5ed310d301a738864860ce9d"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32e1e01a738864860cea9"},"name":"B","content":"2=B 型","title":{"$oid":"5ed310d301a738864860ce9d"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32e1e01a738864860ceaa"},"name":"C","content":"3=AB 型","title":{"$oid":"5ed310d301a738864860ce9d"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32e1e01a738864860ceab"},"name":"D","content":"4=O 型","title":{"$oid":"5ed310d301a738864860ce9d"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32e1e01a738864860ceac"},"name":"E","content":"5=不清楚","title":{"$oid":"5ed310d301a738864860ce9d"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32e5f01a738864860ceae"},"name":"A","content":"非常多","title":{"$oid":"5ed32e4301a738864860cead"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32e5f01a738864860ceaf"},"name":"B","content":"许多","title":{"$oid":"5ed32e4301a738864860cead"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32e5f01a738864860ceb0"},"name":"C","content":"一点","title":{"$oid":"5ed32e4301a738864860cead"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32e5f01a738864860ceb1"},"name":"D","content":"完全没有","title":{"$oid":"5ed32e4301a738864860cead"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32ea001a738864860ceb3"},"name":"A","content":"非常多","title":{"$oid":"5ed32e8801a738864860ceb2"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32ea001a738864860ceb4"},"name":"B","content":"许多","title":{"$oid":"5ed32e8801a738864860ceb2"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32ea001a738864860ceb5"},"name":"C","content":"一点","title":{"$oid":"5ed32e8801a738864860ceb2"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32ea001a738864860ceb6"},"name":"D","content":"完全没有","title":{"$oid":"5ed32e8801a738864860ceb2"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32ed201a738864860ceb8"},"name":"A","content":"非常多","title":{"$oid":"5ed32eb401a738864860ceb7"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32ed201a738864860ceb9"},"name":"B","content":"许多","title":{"$oid":"5ed32eb401a738864860ceb7"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32ed201a738864860ceba"},"name":"C","content":"一点","title":{"$oid":"5ed32eb401a738864860ceb7"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32ed201a738864860cebb"},"name":"D","content":"完全没有","title":{"$oid":"5ed32eb401a738864860ceb7"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32ed201a738864860cebc"},"name":"E","content":"无关","title":{"$oid":"5ed32eb401a738864860ceb7"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32f0601a738864860cebe"},"name":"A","content":"非常多","title":{"$oid":"5ed32ee901a738864860cebd"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32f0601a738864860cebf"},"name":"B","content":"许多","title":{"$oid":"5ed32ee901a738864860cebd"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32f0601a738864860cec0"},"name":"C","content":"一点","title":{"$oid":"5ed32ee901a738864860cebd"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32f0601a738864860cec1"},"name":"D","content":"完全没有","title":{"$oid":"5ed32ee901a738864860cebd"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32f0601a738864860cec2"},"name":"E","content":"无关","title":{"$oid":"5ed32ee901a738864860cebd"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32f5f01a738864860cec4"},"name":"A","content":"非常多","title":{"$oid":"5ed32f4301a738864860cec3"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32f5f01a738864860cec5"},"name":"B","content":"许多","title":{"$oid":"5ed32f4301a738864860cec3"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32f5f01a738864860cec6"},"name":"C","content":"一点","title":{"$oid":"5ed32f4301a738864860cec3"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32f5f01a738864860cec7"},"name":"D","content":"完全没有","title":{"$oid":"5ed32f4301a738864860cec3"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32f5f01a738864860cec8"},"name":"E","content":"无关","title":{"$oid":"5ed32f4301a738864860cec3"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32fb101a738864860ceca"},"name":"A","content":"我四处走动没有困难。 ","title":{"$oid":"5ed32f8401a738864860cec9"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32fb101a738864860cecb"},"name":"B","content":"我四处走动有一点困难。","title":{"$oid":"5ed32f8401a738864860cec9"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32fb101a738864860cecc"},"name":"C","content":"我四处走动有中度的困难。 ","title":{"$oid":"5ed32f8401a738864860cec9"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32fb101a738864860cecd"},"name":"D","content":"我四处走动有严重的困难。","title":{"$oid":"5ed32f8401a738864860cec9"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32fb101a738864860cece"},"name":"E","content":"我无法四处走动。","title":{"$oid":"5ed32f8401a738864860cec9"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32ff301a738864860ced0"},"name":"A","content":"我自己洗澡或穿衣没有困难。","title":{"$oid":"5ed32fcc01a738864860cecf"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32ff301a738864860ced1"},"name":"B","content":"我自己洗澡或穿衣有一点困难。","title":{"$oid":"5ed32fcc01a738864860cecf"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32ff301a738864860ced2"},"name":"C","content":"我自己洗澡或穿衣有中度的困难。 ","title":{"$oid":"5ed32fcc01a738864860cecf"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32ff301a738864860ced3"},"name":"D","content":"我自己洗澡或穿衣有严重的困难。","title":{"$oid":"5ed32fcc01a738864860cecf"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed32ff301a738864860ced4"},"name":"E","content":"我无法自己洗澡或穿衣。","title":{"$oid":"5ed32fcc01a738864860cecf"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3302901a738864860ced6"},"name":"A","content":"我进行日常活动没有困难。 ","title":{"$oid":"5ed3300801a738864860ced5"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3302901a738864860ced7"},"name":"B","content":"我进行日常活动有一点困难。","title":{"$oid":"5ed3300801a738864860ced5"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3302901a738864860ced8"},"name":"C","content":"我进行日常活动有中度的困难。","title":{"$oid":"5ed3300801a738864860ced5"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3302901a738864860ced9"},"name":"D","content":"我进行日常活动有严重的困难。","title":{"$oid":"5ed3300801a738864860ced5"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3302901a738864860ceda"},"name":"E","content":"我无法进行日常活动。","title":{"$oid":"5ed3300801a738864860ced5"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3305d01a738864860cedc"},"name":"A","content":"我没有疼痛或不舒服。 ","title":{"$oid":"5ed3304101a738864860cedb"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3305d01a738864860cedd"},"name":"B","content":"我有一点疼痛或不舒服。","title":{"$oid":"5ed3304101a738864860cedb"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3305d01a738864860cede"},"name":"C","content":"我有中度的疼痛或不舒服。","title":{"$oid":"5ed3304101a738864860cedb"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3305d01a738864860cedf"},"name":"D","content":"我有严重的疼痛或不舒服。","title":{"$oid":"5ed3304101a738864860cedb"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3305d01a738864860cee0"},"name":"E","content":"我有非常严重的疼痛或不舒服。","title":{"$oid":"5ed3304101a738864860cedb"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3308701a738864860cee2"},"name":"A","content":"我没有焦虑或沮丧。 ","title":{"$oid":"5ed3306d01a738864860cee1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3308701a738864860cee3"},"name":"B","content":"我有一点焦虑或沮丧。","title":{"$oid":"5ed3306d01a738864860cee1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3308701a738864860cee4"},"name":"C","content":"我有中度的焦虑或沮丧。","title":{"$oid":"5ed3306d01a738864860cee1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3308701a738864860cee5"},"name":"D","content":"我有严重的焦虑或沮丧。","title":{"$oid":"5ed3306d01a738864860cee1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3308701a738864860cee6"},"name":"E","content":"我有非常严重的焦虑或沮丧。","title":{"$oid":"5ed3306d01a738864860cee1"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed330b101a738864860cee8"},"name":"A","content":"我没有皮肤瘙痒。","title":{"$oid":"5ed3309601a738864860cee7"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed330b101a738864860cee9"},"name":"B","content":"我有一点皮肤瘙痒。","title":{"$oid":"5ed3309601a738864860cee7"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed330b101a738864860ceea"},"name":"C","content":"我有中度的皮肤瘙痒。","title":{"$oid":"5ed3309601a738864860cee7"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed330b101a738864860ceeb"},"name":"D","content":"我有严重的皮肤瘙痒。","title":{"$oid":"5ed3309601a738864860cee7"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed330b101a738864860ceec"},"name":"E","content":"我有非常严重的皮肤瘙痒。","title":{"$oid":"5ed3309601a738864860cee7"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed330e901a738864860ceee"},"name":"A","content":"我在自信方面没有问题。","title":{"$oid":"5ed330c401a738864860ceed"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed330e901a738864860ceef"},"name":"B","content":"我在自信方面有非常严重的问题。","title":{"$oid":"5ed330c401a738864860ceed"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed330e901a738864860cef0"},"name":"C","content":"我在自信方面有一点问题。","title":{"$oid":"5ed330c401a738864860ceed"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed330e901a738864860cef1"},"name":"D","content":" 我在自信方面有中度的问题。","title":{"$oid":"5ed330c401a738864860ceed"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed330e901a738864860cef2"},"name":"E","content":"我在自信方面有严重的问题。","title":{"$oid":"5ed330c401a738864860ceed"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3312a01a738864860cef4"},"name":"A","content":"我们想知道您今天健康状况的好坏（0-100分）","title":{"$oid":"5ed3312201a738864860cef3"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3316f01a738864860cef6"},"name":"A","content":"用药后自觉皮疹好转时间","title":{"$oid":"5ed3316a01a738864860cef5"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3318101a738864860cef8"},"name":"A","content":"用药后自觉疼痛减轻时间","title":{"$oid":"5ed3317e01a738864860cef7"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed331a101a738864860cefa"},"name":"A","content":"持续","title":{"$oid":"5ed3318d01a738864860cef9"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed331a101a738864860cefb"},"name":"B","content":"间断","title":{"$oid":"5ed3318d01a738864860cef9"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed331a101a738864860cefc"},"name":"C","content":"偶发","title":{"$oid":"5ed3318d01a738864860cef9"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed331a101a738864860cefd"},"name":"D","content":"无","title":{"$oid":"5ed3318d01a738864860cef9"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed331cd01a738864860ceff"},"name":"A","content":"持续","title":{"$oid":"5ed331b801a738864860cefe"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed331cd01a738864860cf00"},"name":"B","content":"间断","title":{"$oid":"5ed331b801a738864860cefe"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed331cd01a738864860cf01"},"name":"C","content":"偶发","title":{"$oid":"5ed331b801a738864860cefe"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed331cd01a738864860cf02"},"name":"D","content":"无","title":{"$oid":"5ed331b801a738864860cefe"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed331ee01a738864860cf04"},"name":"A","content":"持续","title":{"$oid":"5ed331dd01a738864860cf03"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed331ee01a738864860cf05"},"name":"B","content":"间断","title":{"$oid":"5ed331dd01a738864860cf03"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed331ee01a738864860cf06"},"name":"C","content":"偶发","title":{"$oid":"5ed331dd01a738864860cf03"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed331ee01a738864860cf07"},"name":"D","content":"无","title":{"$oid":"5ed331dd01a738864860cf03"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3328c01a738864860cf09"},"name":"A","content":"持续","title":{"$oid":"5ed3327001a738864860cf08"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3328c01a738864860cf0a"},"name":"B","content":"间断","title":{"$oid":"5ed3327001a738864860cf08"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3328c01a738864860cf0b"},"name":"C","content":"偶发","title":{"$oid":"5ed3327001a738864860cf08"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3328c01a738864860cf0c"},"name":"D","content":"无","title":{"$oid":"5ed3327001a738864860cf08"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed332cc01a738864860cf0e"},"name":"A","content":"持续","title":{"$oid":"5ed332ac01a738864860cf0d"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed332cc01a738864860cf0f"},"name":"B","content":"间断","title":{"$oid":"5ed332ac01a738864860cf0d"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed332cc01a738864860cf10"},"name":"C","content":"偶发","title":{"$oid":"5ed332ac01a738864860cf0d"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed332cc01a738864860cf11"},"name":"D","content":"无","title":{"$oid":"5ed332ac01a738864860cf0d"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3343201a738864860cf13"},"name":"A","content":"持续","title":{"$oid":"5ed3341e01a738864860cf12"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3343201a738864860cf14"},"name":"B","content":"间断","title":{"$oid":"5ed3341e01a738864860cf12"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3343201a738864860cf15"},"name":"C","content":"偶发","title":{"$oid":"5ed3341e01a738864860cf12"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3343201a738864860cf16"},"name":"D","content":"无","title":{"$oid":"5ed3341e01a738864860cf12"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3345d01a738864860cf18"},"name":"A","content":"肿瘤","title":{"$oid":"5ed3344601a738864860cf17"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3345d01a738864860cf19"},"name":"B","content":"中风","title":{"$oid":"5ed3344601a738864860cf17"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3345d01a738864860cf1a"},"name":"C","content":"其他","title":{"$oid":"5ed3344601a738864860cf17"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3347901a738864860cf1c"},"name":"A","content":"有","title":{"$oid":"5ed3347101a738864860cf1b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3347901a738864860cf1d"},"name":"B","content":"无","title":{"$oid":"5ed3347101a738864860cf1b"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed334cd01a738864860cf1f"},"name":"A","content":"自发痛□ □ □ □ □ □ □□ □ □","title":{"$oid":"5ed3349b01a738864860cf1e"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed334cd01a738864860cf20"},"name":"B","content":"针刺样","title":{"$oid":"5ed3349b01a738864860cf1e"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed334cd01a738864860cf21"},"name":"C","content":"刀割样","title":{"$oid":"5ed3349b01a738864860cf1e"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed334cd01a738864860cf22"},"name":"D","content":"撕裂样","title":{"$oid":"5ed3349b01a738864860cf1e"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed334cd01a738864860cf23"},"name":"E","content":"烧灼样","title":{"$oid":"5ed3349b01a738864860cf1e"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed334cd01a738864860cf24"},"name":"F","content":"电击样","title":{"$oid":"5ed3349b01a738864860cf1e"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed334cd01a738864860cf25"},"name":"G","content":"放射痛","title":{"$oid":"5ed3349b01a738864860cf1e"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed334cd01a738864860cf26"},"name":"H","content":"酸痛","title":{"$oid":"5ed3349b01a738864860cf1e"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed334cd01a738864860cf27"},"name":"I","content":"胀痛","title":{"$oid":"5ed3349b01a738864860cf1e"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed334cd01a738864860cf28"},"name":"J","content":"跳痛","title":{"$oid":"5ed3349b01a738864860cf1e"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3350501a738864860cf2a"},"name":"A","content":"蚁行感","title":{"$oid":"5ed334db01a738864860cf29"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3350501a738864860cf2b"},"name":"B","content":"紧束感","title":{"$oid":"5ed334db01a738864860cf29"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3350501a738864860cf2c"},"name":"C","content":"麻木","title":{"$oid":"5ed334db01a738864860cf29"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3350501a738864860cf2d"},"name":"D","content":"瘙痒","title":{"$oid":"5ed334db01a738864860cf29"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3350501a738864860cf2e"},"name":"E","content":"温觉异常","title":{"$oid":"5ed334db01a738864860cf29"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ed3350501a738864860cf2f"},"name":"F","content":"感觉迟钝","title":{"$oid":"5ed334db01a738864860cf29"},"__v":{"$numberInt":"0"}}
