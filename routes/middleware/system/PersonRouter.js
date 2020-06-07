@@ -3,9 +3,9 @@ const router = express.Router({
     mergeParams: true
 })
 
-const person = require('../../../models/Person')
+const personModel = require('../../../models/Person')
 
-router.get('/getPerson',async (req, res)=>{
+router.get('/getPerson', async (req, res) => {
     try {
         const {pageNum = 1, pageSize = 10, name} = req.query
         const skipNum = (parseInt(pageNum) - 1) * parseInt(pageSize)
@@ -15,8 +15,8 @@ router.get('/getPerson',async (req, res)=>{
                 {name: {$regex: name || '', $options: 'i'}}
             ]
         }
-        const total = await person.countDocuments(condition)
-        const data = await person.find(condition).populate('doctor').populate('role').sort(sort).skip(skipNum).limit(parseInt(pageSize)).lean()
+        const total = await personModel.countDocuments(condition)
+        const data = await personModel.find(condition).populate('doctor').populate('role').sort(sort).skip(skipNum).limit(parseInt(pageSize)).lean()
         res.json({
             result: true,
             total: total,
@@ -30,13 +30,21 @@ router.get('/getPerson',async (req, res)=>{
     }
 })
 
-//资源详情
+router.get('/getAllPerson', async (req, res) => {
+    try {
+        const items = await personModel.find().populate('role').lean()
+        res.json({result: true, data: items})
+    } catch (e) {
+        res.json({result: false, message: JSON.stringify(e)})
+    }
+})
+
 router.get('/getPersonByDoctor', async (req, res) => {
     try {
-        const personList = await person.find().populate('role').lean()
-        const items=[]
-        personList.map(p=>{
-            if(p.role.name==='doctor'){
+        const personList = await personModel.find().populate('role').lean()
+        const items = []
+        personList.map(p => {
+            if (p.role.name === 'doctor') {
                 items.push(p)
             }
         })
@@ -55,16 +63,16 @@ router.get('/getPersonByDoctor', async (req, res) => {
 
 router.post('/addPerson', async (req, res) => {
     try {
-        const {name,number} =req.body
-        const personObj=await person.where('name').equals(name).where('number').equals(number)
-        if(personObj.length>0){
+        const {name, number} = req.body
+        const personObj = await personModel.where('name').equals(name).where('number').equals(number)
+        if (personObj.length > 0) {
             res.json({
                 result: false,
                 message: '该记录已经存在'
             })
         }
 
-        const model = await person.create(req.body)
+        const model = await personModel.create(req.body)
         res.json({
             result: true,
             data: model

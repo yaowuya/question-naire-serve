@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0e5357"],{9406:function(e,n,a){"use strict";a.r(n);var t=function(){var e=this,n=e.$createElement,a=e._self._c||n;return a("div",{staticClass:"app-container"},[e._v("首页")])},c=[],s={name:"Dashboard"},r=s,i=a("2877"),o=Object(i["a"])(r,t,c,!1,null,"046fce08",null);n["default"]=o.exports}}]);
